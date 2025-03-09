@@ -1,0 +1,44 @@
+.section{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  padding: 150px 86px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.card h2{
+  font-family: "Archivo Narrow";
+  font-size: 42.6px;
+  font-weight: 400;
+  color: #010405;
+}
+
+.card p{
+  font-family: "Montserrat";
+  font-size: 21px;
+  font-weight: 400;
+  color: #010405;
+}
+
+.data{
+  font-size: 18.6px;
+  text-decoration: underline;
+  margin-bottom: 0px;
+}
+

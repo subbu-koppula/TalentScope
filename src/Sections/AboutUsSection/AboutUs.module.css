@@ -1,0 +1,254 @@
+.aboutUs {
+  background-color: #e4e4e7;
+  flex-direction: column;
+  justify-content: start;
+  align-items: stretch;
+  padding: 177px 85px;
+  display: flex;
+  overflow: hidden;
+}
+
+@media (width<=991px) {
+  .aboutUs {
+    padding: 100px 20px;
+  }
+}
+
+.sectionTitle {
+  text-align: center;
+  flex-direction: column;
+  justify-content: start;
+  align-self: center;
+  align-items: stretch;
+  width: 1024px;
+  max-width: 100%;
+  display: flex;
+}
+
+.taglineWrapper {
+  color: #010405;
+  align-self: center;
+  font-family: Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.content {
+  width: 100%;
+  margin-top: 21px;
+  font-weight: 400;
+}
+
+@media (width<=991px) {
+  .content {
+    max-width: 100%;
+  }
+}
+
+.heading {
+  color: #142a6b;
+  letter-spacing: -0.64px;
+  font-family: "Archivo Narrow", -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 64px;
+  font-weight: 200;
+  line-height: 1.2;
+}
+
+@media (width<=991px) {
+  .heading {
+    max-width: 100%;
+    font-size: 40px;
+  }
+}
+
+.text {
+  color: #010405;
+  margin-top: 32px;
+  font-family: Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 24px;
+}
+
+@media (width<=991px) {
+  .text {
+    max-width: 100%;
+  }
+}
+
+.container {
+  width: 100%;
+  margin-top: 107px;
+}
+
+@media (width<=991px) {
+  .container {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: start;
+  gap: 40px 43px;
+  width: 100%;
+  display: flex;
+}
+
+@media (width<=991px) {
+  .row {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+.card {
+  background-color: #ffffff1c;
+  border: 1px solid #c3c3d8;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: stretch;
+  min-width: 240px;
+  display: flex;
+  overflow: hidden;
+  height: 500px
+}
+
+@media (width<=1080px) {
+  .card {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.content2 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+  padding: 43px;
+  display: flex;
+}
+
+@media (width<=991px) {
+  .content2 {
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.contentTop {
+  width: 100%;
+  font-weight: 400;
+}
+
+@media (width<=991px) {
+  .contentTop {
+    max-width: 100%;
+    text-align: center;
+  }
+}
+
+.img {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 64px;
+}
+
+.content3 {
+  width: 100%;
+  margin-top: 32px;
+}
+
+@media (width<=991px) {
+  .content3 {
+    max-width: 100%;
+  }
+}
+
+.heading2 {
+  color: #142a6b;
+  letter-spacing: -0.43px;
+  font-family: "Archivo Narrow", -apple-system, Roboto, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 43px;
+  line-height: 1.3;
+}
+
+@media (width<=991px) {
+  .heading2 {
+    font-size: 30px;
+  }
+}
+
+.text2 {
+  color: #010405;
+  margin-top: 21px;
+  font-family: Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 21px;
+  line-height: 32px;
+}
+
+@media (width<=991px) {
+  .text2 {
+    font-size: 15px;
+  }
+}
+
+.actions {
+  color: #010405;
+  white-space: nowrap;
+  justify-content: start;
+  align-items: center;
+  gap: 32px;
+  width: 100%;
+  margin-top: 32px;
+  font-family: Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+  display: flex;
+}
+
+@media (width<=991px) {
+  .actions {
+    max-width: 100%;
+    white-space: initial;
+  }
+}
+
+/* ----- Button Styles ----- */
+.button {
+  display: flex;
+  justify-content: center;
+  border: solid 2px #142a6b;
+  align-self: stretch;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.button:hover {
+  transform: scale(1.02);
+}
+
+@media(max-width: 991px) {
+  .button {
+    width: 100%;
+  }
+}
+
+.button2 {
+  font-family: Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+  color: #010405;
+}
+
+
