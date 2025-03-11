@@ -1,0 +1,338 @@
+.footer11 {
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: start;
+  align-items: stretch;
+  padding: 107px 85px;
+  display: flex;
+  overflow: hidden;
+}
+@media (width<=991px) {
+  .footer11 {
+    padding: 100px 20px;
+  }
+}
+.card {
+  background-color: #fff;
+  border: 1px solid #01040526;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  gap: 40px 85px;
+  width: 1749px;
+  max-width: 100%;
+  padding: 64px;
+  display: flex;
+}
+@media (width<=991px) {
+  .card {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.column {
+  flex-direction: column;
+  flex: 84px;
+  justify-content: start;
+  align-self: stretch;
+  align-items: start;
+  min-width: 240px;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  overflow: hidden;
+}
+@media (width<=991px) {
+  .column {
+    max-width: 100%;
+  }
+}
+.logo {
+  color: #000;
+  text-align: center;
+  justify-content: start;
+  align-items: end;
+  font-family:
+    Montserrat,
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 48px;
+  display: flex;
+}
+.img {
+  aspect-ratio: 1.02;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 67px;
+}
+.talentScope {
+  width: 215px;
+}
+.content {
+  color: #010405;
+  width: 500px;
+  max-width: 100%;
+  margin-top: 43px;
+  font-family:
+    Montserrat,
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+  font-size: 18px;
+}
+@media (width<=991px) {
+  .content {
+    margin-top: 40px;
+  }
+}
+.content2 {
+  width: 421px;
+  max-width: 100%;
+}
+.address {
+  font-weight: 600;
+}
+@media (width<=991px) {
+  .address {
+    max-width: 100%;
+  }
+}
+.behindMeghanTheatreLalithaNagarDilsukhnagarHyderbadTelangana500060 {
+  margin-top: 5px;
+  font-weight: 400;
+  line-height: 28px;
+}
+@media (width<=991px) {
+  .behindMeghanTheatreLalithaNagarDilsukhnagarHyderbadTelangana500060 {
+    max-width: 100%;
+  }
+}
+.content3 {
+  white-space: nowrap;
+  width: 100%;
+  min-width: 420px;
+  margin-top: 32px;
+}
+@media (width<=991px) {
+  .content3 {
+    white-space: initial;
+  }
+}
+.contact {
+  font-weight: 600;
+}
+@media (width<=991px) {
+  .contact {
+    max-width: 100%;
+  }
+}
+.container {
+  width: 100%;
+  margin-top: 5px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+@media (width<=991px) {
+  .container {
+    max-width: 100%;
+    white-space: initial;
+  }
+  .css9177840513,
+  .talentscopecrtgmailcom {
+    max-width: 100%;
+  }
+}
+.socialLinks {
+  justify-content: start;
+  align-items: start;
+  gap: 16px;
+  margin-top: 43px;
+  display: flex;
+}
+@media (width<=991px) {
+  .socialLinks {
+    margin-top: 40px;
+  }
+}
+.img2,
+.img3,
+.img4,
+.img5 {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  flex-shrink: 0;
+  width: 32px;
+}
+.column2 {
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-self: stretch;
+  align-items: stretch;
+  min-width: 240px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 64px 20px 64px 64px;
+  display: flex;
+}
+@media (width<=991px) {
+  .column2 {
+    max-width: 100%;
+    padding-left: 20px;
+  }
+}
+.content4 {
+  color: #010405;
+  width: 100%;
+  font-weight: 400;
+}
+@media (width<=991px) {
+  .content4 {
+    max-width: 100%;
+  }
+}
+.heading {
+  letter-spacing: -0.64px;
+  font-family:
+    Archivo Narrow,
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+  font-size: 35px;
+  /* line-height: 77px; */
+}
+@media (width<=991px) {
+  .heading {
+    max-width: 100%;
+    font-size: 30px;
+    line-height: 53px;
+  }
+}
+.text {
+  margin-top: 32px;
+  font-family:
+    Montserrat,
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+  font-size: 18px;
+  /* line-height: 36px; */
+}
+@media (width<=991px) {
+  .text {
+    max-width: 100%;
+  }
+}
+.actions {
+  width: 100%;
+  max-width: 684px;
+  margin-top: 43px;
+  font-family:
+    Montserrat,
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+  font-size: 16px;
+}
+@media (width<=991px) {
+  .actions {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+.form {
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: start;
+  gap: 21px;
+  width: 100%;
+  line-height: 24px;
+  display: flex;
+}
+@media (width<=991px) {
+  .form {
+    max-width: 100%;
+  }
+}
+.placeholder {
+  color: #010405;
+  background-color: #fff0;
+  border: 1px solid #01040526;
+  flex: 1;
+  align-self: stretch;
+  gap: 11px;
+  width: 482px;
+  min-width: 240px;
+  padding: 11px 16px;
+  font-weight: 400;
+}
+@media (width<=991px) {
+  .placeholder {
+    max-width: 100%;
+  }
+}
+.button {
+  color: #fff;
+  background-color: #142a6b;
+  border-width: 2px 2px 5px;
+  border-color: #102155;
+  align-self: stretch;
+  gap: 11px;
+  padding: 13px 32px;
+  font-weight: 500;
+}
+@media (width<=991px) {
+  .button {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.byclickingSignUpyoureconfirmingthatyouagreewithourTermsandConditions {
+  color: #010405;
+  margin-top: 21px;
+  font-weight: 400;
+}
+@media (width<=991px) {
+  .byclickingSignUpyoureconfirmingthatyouagreewithourTermsandConditions {
+    max-width: 100%;
+  }
+}
+.credits {
+  color: #010405;
+  width: 100%;
+  margin-top: 43px;
+  font-family:
+    Montserrat,
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+@media (width<=991px) {
+  .credits {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+.row {
+  width: 100%;
+}
+@media (width<=991px) {
+  .row {
+    max-width: 100%;
+  }
+}

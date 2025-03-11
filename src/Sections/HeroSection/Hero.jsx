@@ -36,7 +36,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className={styles.hero}>
+      <div id="Home" className={styles.hero}>
         <div className={styles.heroContainer}>
           <div className={styles.leftSection}>
             <div className={styles.scrollSection}>
@@ -83,7 +83,13 @@ const Hero = () => {
                   <div className={styles.featureText}>Technical Skills</div>
                 </div>
               </div>
-              <button className={`${styles.buttonBlue} + ${styles.ctaButton}`}>Know More</button>
+              <a href="#AboutUs">
+                <button
+                  className={`${styles.buttonBlue} + ${styles.ctaButton}`}
+                >
+                  Know More
+                </button>
+              </a>
             </div>
           </div>
           <div className={styles.rightSection}>
@@ -95,15 +101,15 @@ const Hero = () => {
           </div>
         </div>
         <div className={styles.bottomSection}>
-          <div className={styles.bottomContent}>
+          <h1 className={styles.bottomContent}>
             Launch Your Career in Software Today!
-          </div>
+          </h1>
           <div className={styles.bottomRight}>
-            <div className={styles.bottomDescription}>
+            <p className={styles.bottomDescription}>
               At Talent Scope, we empower aspiring software professionals with
               the skills they need to succeed. Join our community and unlock
               your potential in the tech industry.
-            </div>
+            </p>
             <div className={styles.bottomButtons}>
               <button className={styles.buttonWhite}>Get Started</button>
               <button className={styles.buttonBlue}>Learn More</button>

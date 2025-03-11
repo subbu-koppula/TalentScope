@@ -5,7 +5,7 @@ import styles from "./Empower.module.css";
 
 const Empower = () => {
   return (
-    <section className={styles.layout25}>
+    <section id="Empower1" className={styles.layout25}>
       <div className={styles.container}>
         <div className={styles.content}>
           <div className={styles.contentWrapper}>

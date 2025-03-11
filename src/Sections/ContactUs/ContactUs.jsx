@@ -17,7 +17,7 @@ const Card = ({icon, Title, Text, data, data2}) => {
 
 const ContactUs = () => {
   return (
-    <section className={styles.section}>
+    <section id='ContactUs' className={styles.section}>
         <div className={styles.container}>
           <Card 
             icon="envelope"

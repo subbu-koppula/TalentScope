@@ -2,10 +2,12 @@
   background-color: #e4e4e7;
   flex-direction: column;
   justify-content: start;
-  align-items: stretch;
-  padding: 177px 85px;
+  align-items: center;
+  padding: 85px 85px;
+  padding-bottom: 150px;
   display: flex;
   overflow: hidden;
+  /* max-height: 800px; */
 }
 
 @media (width<=991px) {

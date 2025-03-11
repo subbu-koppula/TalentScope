@@ -36,7 +36,7 @@ const WhyUs = () => {
   ];
 
   return (
-    <section className={styles.section}>
+    <section id="WhyUs" className={styles.section}>
       <div className={styles.container}>
         <div className={styles.content}>
           <div className={styles.featureList}>

@@ -40,6 +40,17 @@
   width: 80%;
 }
 
+@media (max-width: 640px) {
+  .CardRow {
+    flex-direction: column;
+    width: 100%;
+  }
+  .courseCard {
+    width: 90%;
+    margin: 10px auto;
+  }
+}
+
 @keyframes appear {
   from {
     /* opacity: 0; */
